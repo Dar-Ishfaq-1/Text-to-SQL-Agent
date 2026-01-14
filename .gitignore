@@ -1,0 +1,14 @@
+# Python
+backend/sql_env/
+__pycache__/
+*.pyc
+.env
+
+# Node
+frontend/node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
