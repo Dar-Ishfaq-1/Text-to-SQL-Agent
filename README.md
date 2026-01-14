@@ -1,53 +1,51 @@
 
-
 # 🚀 Text-to-SQL Agent using Gemini AI
 
 **Alhamdulillah. All praise and gratitude belong to Allah, Who grants knowledge, patience, and the ability to persevere through challenges.**
 
-This project is a **full-stack AI application** that converts **natural language questions into SQL queries**, executes them safely on a relational database, and displays results in real time through a web interface.
+This project is a **full-stack AI application** that converts **natural language questions into SQL queries**, executes them safely on a relational database, and displays the results in real time through a web interface.
 
 ---
 
 ## 🧠 Project Overview
 
-The Text-to-SQL Agent allows users to interact with a database using plain English.
+The Text-to-SQL Agent enables users to interact with a database using plain English.  
 The backend uses **Google Gemini AI** to generate SQL queries based on the database schema, validates them for safety, executes them on SQLite, and returns structured results to the frontend.
 
 ---
 
 ## ✨ Key Features
 
-* Natural language → SQL query generation
-* Schema-aware and safe SQL generation (SELECT-only)
-* Automatic query execution on SQLite database
-* Real-time result display in tabular format
-* Interactive React-based user interface
-* Backend API with Flask
-* Clean separation of frontend and backend
+- Natural language → SQL query generation  
+- Schema-aware and safe SQL generation (SELECT-only)  
+- Automatic SQL execution on SQLite  
+- Real-time result visualization  
+- Interactive React-based UI  
+- RESTful backend using Flask  
+- Clean separation of frontend and backend  
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Backend
-
-* Python
-* Flask
-* SQLite
-* Google Gemini AI (`google-generativeai`)
-* Flask-CORS
+- Python  
+- Flask  
+- SQLite  
+- Google Gemini AI (`google-generativeai`)  
+- Flask-CORS  
 
 ### Frontend
-
-* React (Create React App)
-* Tailwind CSS (CDN)
-* Lucide Icons
+- React (Create React App)  
+- Tailwind CSS (CDN)  
+- Lucide Icons  
 
 ---
 
 ## 📁 Project Structure
 
 ```
+
 TextToSQL/
 │
 ├── backend/
@@ -66,8 +64,10 @@ TextToSQL/
 │   └── package-lock.json
 │
 ├── .gitignore
+├── LICENSE
 └── README.md
-```
+
+````
 
 ---
 
@@ -78,7 +78,7 @@ TextToSQL/
 ```bash
 git clone https://github.com/yourusername/TextToSQL.git
 cd TextToSQL
-```
+````
 
 ---
 
@@ -170,44 +170,42 @@ Try asking:
 
 * Only **SELECT** queries are allowed
 * Dangerous SQL operations are blocked
-* Schema-aware prompt generation
-* Backend validation before execution
+* Schema-aware prompt construction
+* Server-side SQL validation
 
 ---
 
-## 🚧 Challenges Faced & Learnings
+## 🚧 Challenges & Learnings
 
 * Understanding that frontend frameworks do not auto-connect to backends
 * Resolving CRA vs Vite tooling confusion
-* Debugging npm dependency conflicts
-* Handling CORS and API integration issues
-* Dealing with AI model availability and SDK version mismatches
-* Learning real-world project structuring for GitHub
+* Debugging npm dependency and environment issues
+* Handling CORS and API integration problems
+* Managing AI model availability and SDK version mismatches
+* Structuring a real-world project for GitHub
 
-These challenges significantly strengthened my understanding of **real-world full-stack AI development**.
+These challenges strengthened my understanding of **practical full-stack AI development**.
 
 ---
 
 ## 📌 Future Improvements
 
-* Authentication & user management
-* Support for multiple databases
+* Authentication and user management
+* Support for multiple database engines
 * Query history and export options
-* Deployment (Docker / Cloud hosting)
+* Cloud deployment (Docker / CI/CD)
 
 ---
 
 ## 📜 License
 
-This project is open-source and available under the **MIT License**.
+This project is licensed under the **MIT License**.
 
 ---
 
 ## 🤝 Acknowledgment
 
 **Alhamdulillah**, this project was completed with patience, persistence, and continuous learning.
-Any feedback or suggestions are welcome.
-
----
+Feedback and contributions are welcome.
 
 
